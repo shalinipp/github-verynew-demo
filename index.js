@@ -1,3 +1,9 @@
-module.exports = function(){
-    console.log('hello dear');
+function print() {
+    abc();
 }
+
+function abc() {
+    console.log('hit');
+}
+
+module.exports = print();
